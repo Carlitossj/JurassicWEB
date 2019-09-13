@@ -20,31 +20,45 @@ namespace Forms
             InitializeComponent();
             Ado = new AdoMySQLEntityCore();
         }
-        public bool vacio;
+        public bool vacio ;
         private void validar(Form formulario)
         {
-            foreach (Control oControls in formulario.Controls) 
+            if(string.IsNullOrEmpty(txtNombreUsuario.Text))
             {
-                if (oControls is TextBox & oControls.Text == String.Empty) 
-                {
-                    vacio = true; 
-                }
+                MessageBox.Show("Favor de llenar todos los campos.");
+                return;
             }
-            if (vacio == true)
+
+            if (string.IsNullOrEmpty(txtPass.Text))
+            {
+                MessageBox.Show("Favor de llenar todos los campos.");
+                return;
+            }
+
+            altaUsuario();
             
-            {
-                MessageBox.Show("Favor de llenar todos los campos."); 
-                vacio=false;
-            }
-               
-           
-          
+            //foreach (Control oControls in formulario.Controls) 
+            //{
+            //    if (oControls is TextBox & oControls.Text == String.Empty)
+            //    {
+            //        vacio = true;
+            //        MessageBox.Show("Favor de llenar todos los campos.");
+            //    }
+            //    if (oControls is TextBox & oControls.Text != String.Empty)
+            //    {
+            //        altaUsuario();                   
+            //    }
+            //}
+
+
+
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            validar(this);
             
-            altaUsuario();
+               
         }
         private void altaUsuario()
         {
