@@ -20,9 +20,30 @@ namespace Forms
             InitializeComponent();
             Ado = new AdoMySQLEntityCore();
         }
+        public bool vacio;
+        private void validar(Form formulario)
+        {
+            foreach (Control oControls in formulario.Controls) 
+            {
+                if (oControls is TextBox & oControls.Text == String.Empty) 
+                {
+                    vacio = true; 
+                }
+            }
+            if (vacio == true)
+            
+            {
+                MessageBox.Show("Favor de llenar todos los campos."); 
+                vacio=false;
+            }
+               
+           
+          
+        }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
+            
             altaUsuario();
         }
         private void altaUsuario()
@@ -32,6 +53,7 @@ namespace Forms
             {
                 Usuario user = crearUsuario();
                 Ado.agregarUsuario(user);
+                
                 mensaje = "Dado de alta con exito";
             }
             catch (Exception e)
@@ -42,11 +64,14 @@ namespace Forms
         }
         private Usuario crearUsuario()
         {
+
             return new Usuario()
             {
                 nombre_usuario = txtNombreUsuario.Text,
                 contrasenia = txtPass.Text
             };
         }
+
+       
     }
 }

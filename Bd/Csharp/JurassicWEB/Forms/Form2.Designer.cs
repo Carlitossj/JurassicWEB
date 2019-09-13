@@ -99,6 +99,7 @@
             this.Controls.Add(this.lblNombreUser);
             this.Name = "Form2";
             this.Text = "Form2";
+            
             this.ResumeLayout(false);
             this.PerformLayout();
 

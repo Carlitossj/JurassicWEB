@@ -1,4 +1,6 @@
-﻿using System;
+﻿using JurassicWEB;
+using JurassicWEB.ADO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,15 @@ namespace Forms
         public Form3()
         {
             InitializeComponent();
+        }
+
+        private void btnAceptar_Click(object sender, EventArgs e)
+        {
+            ingresar();
+        }
+        private void ingresar()
+        {
+           
         }
     }
 }
