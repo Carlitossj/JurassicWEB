@@ -12,7 +12,7 @@ namespace JurassicWEB.ADO
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
-            optionsBuilder.UseMySQL("server=localhost;database=JurassicWeB;user=root;password=root");
+            optionsBuilder.UseMySQL("server=localhost;database=JurassicWeB;user=root;password=admin");
         }
         public void agregarUsuario(Usuario usuario)
         {

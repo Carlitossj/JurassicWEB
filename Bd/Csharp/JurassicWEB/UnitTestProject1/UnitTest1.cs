@@ -13,6 +13,7 @@ namespace TestJurassicWeb
         
         
         Usuario usuario { get; set; }
+        [TestInitialize]
         public void SETUP()
         {
             usuario = new Usuario();

@@ -152,9 +152,6 @@ C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.csprojAssemblyReference.cache
-C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.Forms.Menu.resources
-C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.Forms.Registrarse.resources
-C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.csproj.GenerateResource.cache
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.csproj.CoreCompileInputs.cache
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.csproj.CopyComplete
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\JurassicWEB\obj\Debug\JurassicWEB.dll

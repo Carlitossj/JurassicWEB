@@ -18,17 +18,6 @@ namespace JurassicWEB
         [Required]
         public Usuario usuario { get; set; }
         public List<Usuario> Usuarios { get; set; }
-        public Juego()
-        {
-            Usuarios = new List<Usuario>();
-        }
-        public void Registrarse()
-        {
-            usuario = new Usuario();
-        }
-        public void IniciarSesion(Usuario usuario)
-        {
-            
-        }
+       
     }
 }
