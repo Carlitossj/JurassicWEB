@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JurassicWEB", "JurassicWEB\JurassicWEB.csproj", "{A5297A72-2CEA-44C0-BAE2-0BBEAF843E30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJurassicWeb", "UnitTestProject1\TestJurassicWeb.csproj", "{FFCF1E33-560A-42B1-9602-A6897541242C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A5297A72-2CEA-44C0-BAE2-0BBEAF843E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5297A72-2CEA-44C0-BAE2-0BBEAF843E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5297A72-2CEA-44C0-BAE2-0BBEAF843E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFCF1E33-560A-42B1-9602-A6897541242C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFCF1E33-560A-42B1-9602-A6897541242C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFCF1E33-560A-42B1-9602-A6897541242C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFCF1E33-560A-42B1-9602-A6897541242C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
