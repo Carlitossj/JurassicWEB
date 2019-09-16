@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using JurassicWEB.Logica;
 
 namespace JurassicWEB
 {
@@ -26,6 +26,9 @@ namespace JurassicWEB
         [Required]
         [StringLength(45)]
         public  string contrasenia { get; set; }
+
+        public List<HistorialPuntos> Proyecciones { get; set; }
         public Usuario() { }
+
     }
 }

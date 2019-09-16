@@ -34,6 +34,10 @@ namespace JurassicWEB.ADO
 
             base.OnModelCreating(mb);
         }
+        public void buscarUsuario(Usuario usuario)
+        {
+            Usuarios.FirstOrDefault();
+        }
 
     }
 }

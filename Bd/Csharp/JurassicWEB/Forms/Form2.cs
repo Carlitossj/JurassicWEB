@@ -42,7 +42,10 @@ namespace Forms
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             validar(this);
-            
+            Form4 frm4 = new Form4();
+            frm4.Show();
+            Form2 frm2 = new Form2();
+            frm2.Hide();
                
         }
         private void altaUsuario()

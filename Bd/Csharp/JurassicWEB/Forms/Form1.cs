@@ -23,8 +23,9 @@ namespace Forms
         {
            Form2 frm2 = new Form2();
             Form1 frm1 = new Form1();
-            frm1.Hide();
+            
             frm2.Show();
+            frm1.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)

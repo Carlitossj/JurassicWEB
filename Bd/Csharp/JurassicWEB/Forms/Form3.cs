@@ -14,6 +14,7 @@ namespace Forms
 {
     public partial class Form3 : Form
     {
+        AdoMySQLEntityCore Ado;
         public Form3()
         {
             InitializeComponent();
@@ -21,11 +22,32 @@ namespace Forms
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            ingresar();
-        }
-        private void ingresar()
-        {
+            Ingresar();
+           
+            
            
         }
+        private void Ingresar()
+        {
+            string mensaje;
+            try
+            {
+                Usuario user = searchUsuario();
+                Ado.buscarUsuario(user);
+
+                mensaje = "ingreso con exito";
+            }
+            catch (Exception e)
+            {
+                mensaje = e.Message;
+            }
+            MessageBox.Show(mensaje);
+        }
+        private void  searchUsuario(Usuario usuario)
+        {
+            usuario.nombre_usuario = txtNameuser.Text;
+            usuario.contrasenia = txtContraseña.Text;
+        }
+
     }
 }

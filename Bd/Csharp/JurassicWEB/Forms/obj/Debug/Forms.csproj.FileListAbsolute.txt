@@ -165,3 +165,4 @@ C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\D
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.CopyComplete
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.exe
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.pdb
+C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Form4.resources

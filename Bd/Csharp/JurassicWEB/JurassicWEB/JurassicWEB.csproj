@@ -138,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ADO\AdoMySQLEntityCore.cs" />
+    <Compile Include="Logica\HistorialPuntos.cs" />
     <Compile Include="Logica\Juego.cs" />
     <Compile Include="Logica\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
