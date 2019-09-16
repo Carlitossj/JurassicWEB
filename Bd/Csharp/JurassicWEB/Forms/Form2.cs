@@ -37,21 +37,6 @@ namespace Forms
 
             altaUsuario();
             
-            //foreach (Control oControls in formulario.Controls) 
-            //{
-            //    if (oControls is TextBox & oControls.Text == String.Empty)
-            //    {
-            //        vacio = true;
-            //        MessageBox.Show("Favor de llenar todos los campos.");
-            //    }
-            //    if (oControls is TextBox & oControls.Text != String.Empty)
-            //    {
-            //        altaUsuario();                   
-            //    }
-            //}
-
-
-
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)

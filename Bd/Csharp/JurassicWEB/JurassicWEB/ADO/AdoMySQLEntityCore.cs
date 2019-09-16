@@ -26,5 +26,14 @@ namespace JurassicWEB.ADO
         }
         public List<Usuario> obtenerUsuario() => Usuarios.ToList();
 
+        protected override void OnModelCreating(ModelBuilder mb)
+        {
+            mb.Entity<Usuario>().
+                HasIndex(u => u.nombre_usuario).
+                IsUnique();
+
+            base.OnModelCreating(mb);
+        }
+
     }
 }

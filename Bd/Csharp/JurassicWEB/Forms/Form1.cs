@@ -22,13 +22,16 @@ namespace Forms
         private void button4_Click(object sender, EventArgs e)
         {
            Form2 frm2 = new Form2();
-
+            Form1 frm1 = new Form1();
+            frm1.Hide();
             frm2.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Form3 frm3 = new Form3();
+            Form1 frm1 = new Form1();
+            frm1.Hide();
             frm3.Show();
         }
 
