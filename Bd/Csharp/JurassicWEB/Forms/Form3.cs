@@ -29,13 +29,16 @@ namespace Forms
         }
         private void Ingresar()
         {
+            string nombre;
+            string pass;
             string mensaje;
             try
             {
-                Usuario user = searchUsuario();
-                Ado.buscarUsuario(user);
-
-                mensaje = "ingreso con exito";
+                
+                pass = txtContraseña.Text;
+                nombre = txtNameuser.Text;
+                Ado.buscarUsuario(nombre,pass);
+                mensaje = "inicio de sesion con exito";
             }
             catch (Exception e)
             {
@@ -43,11 +46,8 @@ namespace Forms
             }
             MessageBox.Show(mensaje);
         }
-        private void  searchUsuario(Usuario usuario)
-        {
-            usuario.nombre_usuario = txtNameuser.Text;
-            usuario.contrasenia = txtContraseña.Text;
-        }
+        
+       
 
     }
 }
