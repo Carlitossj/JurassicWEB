@@ -11,31 +11,31 @@ using JurassicWEB;
 
 namespace Forms
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : Form
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
             
         }
-
+        private void OcultaryMostrar(Form form)
+        {
+            this.Hide();
+            form.ShowDialog();
+            this.Show();
+        }
         private void button4_Click(object sender, EventArgs e)
         {
-           Form2 frm2 = new Form2();
-            Form1 frm1 = new Form1();
-            
-            frm2.Show();
-            frm1.Hide();
+            frmRegistroUsuario registro = new frmRegistroUsuario();
+            OcultaryMostrar(registro);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form3 frm3 = new Form3();
-            Form1 frm1 = new Form1();
-            frm1.Hide();
-            frm3.Show();
+            frmInicioSesion InicioSesion = new frmInicioSesion();
+            OcultaryMostrar(InicioSesion);
         }
 
-       
+        
     }
 }

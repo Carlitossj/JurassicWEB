@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace Forms
 {
-    public partial class Form3 : Form
+    public partial class frmInicioSesion : Form
     {
-        AdoMySQLEntityCore Ado;
-        public Form3()
+        AdoMySQLEntityCore Ado = new AdoMySQLEntityCore();
+        public frmInicioSesion()
         {
             InitializeComponent();
         }
@@ -36,9 +36,11 @@ namespace Forms
             {
                 
                 pass = txtContraseña.Text;
-                nombre = txtNameuser.Text;
-                Ado.buscarUsuario(nombre,pass);
-                mensaje = "inicio de sesion con exito";
+                nombre = txtNameuser.Text;               
+                Usuario usuario = Ado.buscarUsuario(nombre, pass);
+                mensaje = usuario is null ? "no se encontro usario" : "inicio de sesion con exito";
+
+
             }
             catch (Exception e)
             {

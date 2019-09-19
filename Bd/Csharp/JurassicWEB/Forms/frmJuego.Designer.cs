@@ -1,6 +1,6 @@
 ﻿namespace Forms
 {
-    partial class Form4
+    partial class frmJuego
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmJuego));
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
