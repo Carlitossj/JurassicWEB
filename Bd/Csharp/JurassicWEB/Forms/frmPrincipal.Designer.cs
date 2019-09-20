@@ -68,7 +68,7 @@
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.btnIniciarSesion);
             this.Name = "frmPrincipal";
-            this.Text = "Form1";
+            this.Text = "Menu";
             this.ResumeLayout(false);
 
         }

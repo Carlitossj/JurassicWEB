@@ -88,7 +88,7 @@
             this.lblNombreUser.Text = "Nombre de Usuario";
             this.lblNombreUser.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form2
+            // frmRegistroUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,8 +99,8 @@
             this.Controls.Add(this.txtNombreUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblNombreUser);
-            this.Name = "Form2";
-            this.Text = "Form2";
+            this.Name = "frmRegistroUsuario";
+            this.Text = "Registrarse";
             this.ResumeLayout(false);
             this.PerformLayout();
 

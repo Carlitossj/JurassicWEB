@@ -44,15 +44,15 @@
             this.button1.Text = "JUGAR";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // Form4
+            // frmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
-            this.Name = "Form4";
-            this.Text = "Form4";
+            this.Name = "frmJuego";
+            this.Text = "JuegoMenu";
             this.ResumeLayout(false);
 
         }

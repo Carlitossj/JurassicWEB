@@ -85,7 +85,7 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Nombre de Usuario";
             // 
-            // Form3
+            // frmInicioSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,8 +96,8 @@
             this.Controls.Add(this.txtNameuser);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form3";
-            this.Text = "Form3";
+            this.Name = "frmInicioSesion";
+            this.Text = "IniciarSesion";
             this.ResumeLayout(false);
             this.PerformLayout();
 
