@@ -29,16 +29,40 @@ namespace Forms
         }
         private void EventoJuego(object sender, EventArgs e)
         {
+         trex.Top += VelocidadSalto;
+         scoretext.Text=" score :" + score;
+         if(Saltando && fuerza <0)
+         {
+             Saltando=false;
+         }
+         if(Saltando)
+         {
+             Saltando= -12;
+             fuerza -=1;
+         }
+         foreach(Control x in this.Controls)
+         {
 
+         }
         }
 
         private void keyisdown(object sender, EventArgs e)
         {
-
+         if(e.KeyCode==Keys.Space && !Saltando )
+         {
+             Saltando=true;
+         }
         }
         private void keyisup(object sender, EventArgs e)
         {
-
+         if(e.KeyCode == Keys.R)
+         {
+             ResetJuego();
+         }
+         if(Saltando)
+         {
+             Saltando = false;
+         }
         }
     }
 }
