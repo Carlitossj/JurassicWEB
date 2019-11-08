@@ -101,6 +101,7 @@
             this.Controls.Add(this.lblNombreUser);
             this.Name = "frmRegistroUsuario";
             this.Text = "Registrarse";
+            this.Load += new System.EventHandler(this.frmRegistroUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

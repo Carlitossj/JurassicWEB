@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(JurassicWeb));
             this.pctPiso = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pctTrex = new System.Windows.Forms.PictureBox();
             this.pctObstaculo1 = new System.Windows.Forms.PictureBox();
             this.pctObstaculo2 = new System.Windows.Forms.PictureBox();
             this.lblPuntos = new System.Windows.Forms.Label();
             this.TimerJuego = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pctPiso)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctTrex)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObstaculo1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObstaculo2)).BeginInit();
             this.SuspendLayout();
@@ -51,16 +51,16 @@
             this.pctPiso.TabIndex = 0;
             this.pctPiso.TabStop = false;
             // 
-            // pictureBox1
+            // pctTrex
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(62, 336);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(55, 60);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pctTrex.BackColor = System.Drawing.Color.White;
+            this.pctTrex.Image = ((System.Drawing.Image)(resources.GetObject("pctTrex.Image")));
+            this.pctTrex.Location = new System.Drawing.Point(62, 336);
+            this.pctTrex.Name = "pctTrex";
+            this.pctTrex.Size = new System.Drawing.Size(55, 59);
+            this.pctTrex.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pctTrex.TabIndex = 1;
+            this.pctTrex.TabStop = false;
             // 
             // pctObstaculo1
             // 
@@ -101,16 +101,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblPuntos);
             this.Controls.Add(this.pctObstaculo2);
             this.Controls.Add(this.pctObstaculo1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pctTrex);
             this.Controls.Add(this.pctPiso);
             this.Name = "JurassicWeb";
             this.Text = "JurassicWeb";
             ((System.ComponentModel.ISupportInitialize)(this.pctPiso)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pctTrex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObstaculo1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObstaculo2)).EndInit();
             this.ResumeLayout(false);
@@ -121,7 +123,7 @@
         #endregion
 
         private System.Windows.Forms.PictureBox pctPiso;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pctTrex;
         private System.Windows.Forms.PictureBox pctObstaculo1;
         private System.Windows.Forms.PictureBox pctObstaculo2;
         private System.Windows.Forms.Label lblPuntos;

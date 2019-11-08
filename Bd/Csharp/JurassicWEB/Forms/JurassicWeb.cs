@@ -29,17 +29,18 @@ namespace Forms
         }
         private void EventoJuego(object sender, EventArgs e)
         {
-         trex.Top += VelocidadSalto;
-         scoretext.Text=" score :" + score;
+         pctTrex.Top += VelocidadSalto;
+        // scoretext.Text=" score :" + puntos;
          if(Saltando && fuerza <0)
          {
              Saltando=false;
          }
-         if(Saltando)
-         {
-             Saltando= -12;
-             fuerza -=1;
-         }
+            if (Saltando)
+            {
+                VelocidadSalto = -12;
+                fuerza -= 1;
+            }
+            else VelocidadSalto = 12;
          foreach(Control x in this.Controls)
          {
 

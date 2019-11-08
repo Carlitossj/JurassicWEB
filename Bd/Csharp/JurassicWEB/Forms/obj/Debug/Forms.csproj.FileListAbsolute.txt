@@ -334,3 +334,15 @@ C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\D
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmRegistroUsuario.resources
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmInicioSesion.resources
 C:\Users\L21-PC09\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmJuego.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.exe.config
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmPrincipal.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmRegistroUsuario.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmInicioSesion.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmJuego.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.JurassicWeb.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Properties.Resources.resources
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.exe
+C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.pdb

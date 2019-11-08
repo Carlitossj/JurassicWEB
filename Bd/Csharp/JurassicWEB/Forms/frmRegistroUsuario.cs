@@ -71,6 +71,9 @@ namespace Forms
             };
         }
 
-       
+        private void frmRegistroUsuario_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
