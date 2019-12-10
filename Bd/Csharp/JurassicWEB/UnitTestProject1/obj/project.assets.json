@@ -7659,23 +7659,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\L21-PC05\\.nuget\\packages\\": {},
+    "C:\\Users\\Lab21-PC06\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\L21-PC05\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\TestJurassicWeb.csproj",
+      "projectUniqueName": "C:\\Users\\Lab21-PC06\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\TestJurassicWeb.csproj",
       "projectName": "TestJurassicWeb",
-      "projectPath": "C:\\Users\\L21-PC05\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\TestJurassicWeb.csproj",
-      "packagesPath": "C:\\Users\\L21-PC05\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\L21-PC05\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\obj\\",
+      "projectPath": "C:\\Users\\Lab21-PC06\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\TestJurassicWeb.csproj",
+      "packagesPath": "C:\\Users\\Lab21-PC06\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lab21-PC06\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\UnitTestProject1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\L21-PC05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lab21-PC06\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7688,8 +7688,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\L21-PC05\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\JurassicWEB\\JurassicWEB.csproj": {
-              "projectPath": "C:\\Users\\L21-PC05\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\JurassicWEB\\JurassicWEB.csproj"
+            "C:\\Users\\Lab21-PC06\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\JurassicWEB\\JurassicWEB.csproj": {
+              "projectPath": "C:\\Users\\Lab21-PC06\\Documents\\GitHub\\JurassicWEB\\Bd\\Csharp\\JurassicWEB\\JurassicWEB\\JurassicWEB.csproj"
             }
           }
         }

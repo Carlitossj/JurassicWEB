@@ -57,7 +57,7 @@
             this.pctTrex.Image = ((System.Drawing.Image)(resources.GetObject("pctTrex.Image")));
             this.pctTrex.Location = new System.Drawing.Point(62, 336);
             this.pctTrex.Name = "pctTrex";
-            this.pctTrex.Size = new System.Drawing.Size(55, 59);
+            this.pctTrex.Size = new System.Drawing.Size(55, 58);
             this.pctTrex.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pctTrex.TabIndex = 1;
             this.pctTrex.TabStop = false;

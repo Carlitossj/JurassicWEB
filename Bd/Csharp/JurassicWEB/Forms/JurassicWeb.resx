@@ -120,16 +120,19 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pctTrex.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        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
+        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
 </value>
   </data>
   <data name="pctObstaculo1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
