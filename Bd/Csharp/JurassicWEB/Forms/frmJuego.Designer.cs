@@ -68,6 +68,7 @@
             this.Controls.Add(this.button1);
             this.Name = "frmJuego";
             this.Text = "JuegoMenu";
+            this.Load += new System.EventHandler(this.frmJuego_Load);
             this.ResumeLayout(false);
 
         }

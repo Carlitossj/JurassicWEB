@@ -67,7 +67,10 @@ namespace Forms
             return new Usuario()
             {
                 nombre_usuario = txtNombreUsuario.Text,
-                contrasenia = txtPass.Text
+                contrasenia = txtPass.Text,
+                nombre= txtNombre.Text,
+                apellido=txtApellido.Text,
+                email=txtEmail.Text
             };
         }
 

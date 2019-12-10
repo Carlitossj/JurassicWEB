@@ -163,12 +163,6 @@
     <Compile Include="frmJuego.Designer.cs">
       <DependentUpon>frmJuego.cs</DependentUpon>
     </Compile>
-    <Compile Include="JurassicWeb.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="JurassicWeb.Designer.cs">
-      <DependentUpon>JurassicWeb.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmPrincipal.resx">
@@ -182,9 +176,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmJuego.resx">
       <DependentUpon>frmJuego.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="JurassicWeb.resx">
-      <DependentUpon>JurassicWeb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

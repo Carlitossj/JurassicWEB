@@ -320,10 +320,6 @@ C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\bin
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csprojAssemblyReference.cache
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.exe.config
-C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Form1.resources
-C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Form2.resources
-C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Form3.resources
-C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Form4.resources
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.Properties.Resources.resources
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.GenerateResource.cache
 C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
@@ -346,3 +342,7 @@ C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\D
 C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.csproj.CoreCompileInputs.cache
 C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.exe
 C:\Users\L21-PC05\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.pdb
+C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmPrincipal.resources
+C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmRegistroUsuario.resources
+C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmInicioSesion.resources
+C:\Users\Lab21-PC06\Documents\GitHub\JurassicWEB\Bd\Csharp\JurassicWEB\Forms\obj\Debug\Forms.frmJuego.resources

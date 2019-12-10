@@ -21,5 +21,10 @@ namespace Forms
         {
 
         }
+
+        private void frmJuego_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

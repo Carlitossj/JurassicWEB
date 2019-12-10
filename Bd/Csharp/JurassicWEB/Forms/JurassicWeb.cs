@@ -29,41 +29,46 @@ namespace Forms
         }
         private void EventoJuego(object sender, EventArgs e)
         {
-         pctTrex.Top += VelocidadSalto;
-        // scoretext.Text=" score :" + puntos;
-         if(Saltando && fuerza <0)
-         {
-             Saltando=false;
-         }
+            pctTrex.Top += VelocidadSalto;
+            // scoretext.Text=" score :" + puntos;
+            if (Saltando && fuerza < 0)
+            {
+                Saltando = false;
+            }
             if (Saltando)
             {
                 VelocidadSalto = -12;
                 fuerza -= 1;
             }
             else VelocidadSalto = 12;
-         foreach(Control x in this.Controls)
-         {
+            foreach (Control x in this.Controls)
+            {
 
-         }
+            }
         }
 
         private void keyisdown(object sender, EventArgs e)
         {
-         if(e.KeyCode==Keys.Space && !Saltando )
-         {
-             Saltando=true;
-         }
+            if (e.KeyCode == Keys.Space && !Saltando)
+            {
+                Saltando = true;
+            }
         }
         private void keyisup(object sender, EventArgs e)
         {
-         if(e.KeyCode == Keys.R)
-         {
-             ResetJuego();
-         }
-         if(Saltando)
-         {
-             Saltando = false;
-         }
+            if (e.KeyCode == Keys.R)
+            {
+                ResetJuego();
+            }
+            if (Saltando)
+            {
+                Saltando = false;
+            }
+        }
+
+        private void JurassicWeb_Load(object sender, EventArgs e)
+        {
+
         }
     }
-}
+

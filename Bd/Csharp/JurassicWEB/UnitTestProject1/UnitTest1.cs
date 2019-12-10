@@ -12,14 +12,14 @@ namespace TestJurassicWeb
     {
         
         
-        Usuario usuario { get; set; }
-        [TestInitialize]
-        public void SETUP()
-        {
-            usuario = new Usuario();
-            usuario.nombre_usuario = "anakin";
-                usuario.contrasenia = "gigigigigi";
-        }
+        //Usuario usuario { get; set; }
+        //[TestInitialize]
+        //public void SETUP()
+        //{
+        //    usuario = new Usuario();
+        //    usuario.nombre_usuario = "anakin";
+        //        usuario.contrasenia = "gigigigigi";
+        //}
        
         [TestMethod]
         public void CrearBD()
@@ -27,7 +27,7 @@ namespace TestJurassicWeb
             AdoMySQLEntityCore ado = new AdoMySQLEntityCore();
             ado.Database.EnsureDeleted();
             ado.Database.EnsureCreated();
-            ado.agregarUsuario(usuario);
+            //ado.agregarUsuario(usuario);
         }
     }
 

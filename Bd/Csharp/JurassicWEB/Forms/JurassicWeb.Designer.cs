@@ -111,6 +111,7 @@
             this.Controls.Add(this.pctPiso);
             this.Name = "JurassicWeb";
             this.Text = "JurassicWeb";
+            this.Load += new System.EventHandler(this.JurassicWeb_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pctPiso)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctTrex)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pctObstaculo1)).EndInit();
